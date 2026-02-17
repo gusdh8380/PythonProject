@@ -1,32 +1,32 @@
-# 숫자 야구 게임
+# Numbers Baseball Game
 
-이 프로젝트는 Python과 Pygame을 사용하여 만든 숫자 야구 게임입니다. 플레이어는 컴퓨터와 숫자 야구 게임을 플레이하며, 난이도에 따라 AI와 경쟁합니다.
+A number guessing game built with **Python** and **Pygame**. Play against a computer AI across multiple difficulty levels.
 
-## 게임 설명
+## About
 
-숫자 야구 게임은 비밀 번호를 맞추는 게임입니다. 플레이어와 컴퓨터는 각각 비밀 번호를 설정하고, 상대의 비밀 번호를 추측합니다. 각 추측에 대해 스트라이크와 볼의 수를 알려줍니다.
+Numbers Baseball is a classic code-breaking game. Both the player and computer set a secret number, then take turns guessing each other's number.
 
-- **스트라이크**: 숫자와 위치가 모두 맞는 경우
-- **볼**: 숫자는 맞지만 위치가 다른 경우
+- **Strike** — Correct digit in the correct position
+- **Ball** — Correct digit in the wrong position
 
-## 실행 방법
+## Features
 
-1. **스크립트 실행**
-     
-2. **메인 메뉴**
-   - 게임을 실행하면 메인 메뉴가 표시돠고
-   - "컴퓨터와 대결" 버튼을 클릭하여 게임을 시작하거나, "종료" 버튼을 클릭하여 게임을 종료
+- 3 difficulty levels (Easy / Normal / Hard)
+- Configurable number length and duplicate digit settings
+- Turn-based gameplay against AI opponent
+- Pygame-based GUI
 
-3. **난이도 선택**
-   - 난이도 선택 화면에서 "쉬움", "보통", "어려움" 중 하나를 선택
+## How to Play
 
-4. **게임 설정**
-   - 숫자의 길이와 중복 숫자 허용 여부를 설정(직접 8자리 + 중복 허용을 해봤지만... 머리 터짐, 가능하면 그냥 4자리에서 하는게^^)
-   - 설정이 완료되면 비밀 번호를 입력
+1. Launch the game and select "Play vs Computer"
+2. Choose a difficulty level
+3. Configure number length and duplicate settings
+4. Set your secret number
+5. Take turns guessing — use strike/ball feedback to narrow down the answer
 
-5. **게임 플레이**
-   - 플레이어는 추측 번호를 입력하고, 컴퓨터와 번갈아가며 추측
-   - 각 추측에 대해 스트라이크와 볼의 수를 확인할 수 있음
+## Tech Stack
 
-
-
+| | |
+|---|---|
+| Language | Python |
+| GUI | Pygame |
